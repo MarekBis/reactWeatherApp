@@ -31,7 +31,7 @@ const Search = ({ onSearchChange }) => {
   return (
     <div className="search">
       <AsyncPaginate
-        placeholder="Search for city"
+        placeholder="Vyhledat město..."
         debounceTimeout={600}
         value={search}
         onChange={handleOnChange}
