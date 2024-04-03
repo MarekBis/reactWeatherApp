@@ -1,0 +1,30 @@
+.container{
+    padding: 1rem;
+    margin:5rem auto 0;
+    display: flex;
+    justify-content:center;
+    gap: 5rem;
+    background-color:;
+}
+
+.col{
+    display: flex;
+    min-width: 400px;
+    margin-top: 5px;
+    flex-direction: column;
+    height: 545px;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 880px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:0;
+    }
+    .col{
+        justify-content: space-around;
+        height: auto;
+    }
+}
